@@ -5,24 +5,63 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="author" content="">
-		<title>START BOOTSTRAP </title>
+		<title>Surf Template </title>
 		
 		<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"> --> 
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css" >
 	</head>
 	<body>
 		<header>
-			<div class="container">
+				<div class="topo">
+					<div class="container">
+						<p class="py-1 mb-0">Aulas na Praia Mansa de Sexta à Domingo das 06:00 às 14:00</p>
+					</div>		
+				</div>
+				<nav class="navbar navbar-expand-lg bg-navbar">
+					<div class="container py-2">
+						<a class="navbar-brand" href="#">
+							<img src="static/img/logo.svg" alt="logo_page">
+						</a>
+						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+								<li class="nav-item">
+									<a class="nav-link active" aria-current="page" href="#">Praia</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Aulas</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Contato</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link" href="#">Matricule-se</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</nav>
 			</div>
 		</header>
 		<main>
-			<section>
+			<section class="banner w-100 d-flex align-items-end">
 				<div class="container">
-					<div class="row">
-						<div class="col-6"  >
+					<div class="row pb-4">
+						<div class="col-12 col-md-6">
+							<h1 class="text-white">Escola de Surf</h1>
 						</div>
-						<div class="col-6"  >
+						<div class="col-12 col-md-6 d-flex">
+							<div class="ms-md-auto my-auto">
+								<div class="input-group form-banner">
+									<input type="text" class="form-control border_radius" placeholder="Email" aria-label="Email" aria-describedby="button-email1">
+									<button class="btn btn-form border_radius" type="button" id="button-addon2">Matricule-se</button>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -30,8 +69,63 @@
 			<section>
 				<div class="container">
 					<div class="row">
-						<div class="col-12" >
+						<div class="col-12 col-md-6" >
+							<div class="content position-relative mb-5">
+								<div class="d-flex align-items-end px-4 mx-auto pt-5 h-100 position-absolute" >
+									<img class="map_image img-fluid" src="/static/img/map.png" alt="mapa de localização" title="mapa de localização">
+								</div>
+							</div>
+							
+							<div class="como_chegar">
+								<div class="d-flex flex-row align-items-center">
+									<svg class="me-1" width="8" height="8" viewBox="0 0 8 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<circle cx="4" cy="4" r="3" stroke="#FF3726" stroke-width="2"/>
+									</svg>
+
+									<h4 class="text-uppercase mb-0">COMO CHEGAR</h4>
+								</div>
+								<div class="d-flex flex-row align-items-center">
+									<svg class="me-1" width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="10" height="2" fill="#1188EE"/>
+									</svg>
+									<p class="mb-0"><span>Carro</span>pela via Lúcio Costa sentido Barra</p>
+								</div>
+								<div class="d-flex flex-row align-items-center">
+									<svg class="me-1" width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="10" height="2" fill="#1188EE"/>
+									</svg>
+									<p class="mb-0"><span>Carro</span>pela via Lúcio Costa sentido Barra</p>
+								</div>
+								<div class="d-flex flex-row align-items-center">
+									<svg class="me-1" width="10" height="2" viewBox="0 0 10 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="10" height="2" fill="#1188EE"/>
+									</svg>
+									<p class="mb-0"><span>Carro</span>pela via Lúcio Costa sentido Barra</p>
+								</div>
+							</div>
 						</div>
+						<div class="col-12 col-md-5 offset-xxl-1" >
+							<h1 class="mb-5"><span class="destaque_text">Aulas</span> em uma das melhores praias do <span class="destaque_text">Rio</span>.</h1>
+							<div>
+								<div class="d-flex flex-row align-items-center pt-2 mt-4">
+									<img class="me-3" src="/static/img/sandalhas.svg" alt="sandalhas" title="sandalhas">
+									<p class="aulas_text_p">8km de costa</p>
+								</div>
+								<div class="d-flex flex-row align-items-center pt-2 mt-4">
+									<img class="me-3"  src="/static/img/coco.svg" alt="sandalhas" title="sandalhas">
+									<p class="aulas_text_p">Restaurantes à beira mar</p>
+								</div>
+								<div class="d-flex flex-row align-items-center pt-2 mt-4">
+									<img class="me-3" src="/static/img/boia.svg" alt="sandalhas" title="sandalhas">
+									<p class="aulas_text_p">Salva-vidas a cada 300m</p>
+								</div>
+								<div class="pt-3 mt-4">
+									<p class="aulas_text_p">Como cidade capital, abriga na zona chamada Plateau, promontório à beira-mar, edifícios públicos e outras construções de importância, como o Palácio Presidencial, construído no fim do século XIX para ser a residência do governador português.</p>
+									<p class="aulas_text_p">Como cidade capital, abriga na zona chamada Plateau, promontório à beira-mar, edifícios públicos e outras construções de importância, como o Palácio Presidencial, construído no fim do século XIX para ser a residência do governador português.</p>
+								</div>
+							</div>
+						</div>
+						
 					</div>
 				</div>
 			</section>
