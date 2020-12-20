@@ -2,8 +2,11 @@
 section {
 	margin: 0 0 50px 0 ;
 }
-div, h1, p {
+div, h1 {
 	font-family: 'Alice', serif;
+}
+p , h4, input, label{
+	font-family: 'Nunito', sans-serif;
 }
 h1 {
 	font-size: 42px;
@@ -59,18 +62,46 @@ h1 {
 }
 .aulas_text_p {
 	color: #445566;
-	;
 	font-size: 18px;
+}
+/* Section 3 */
+/* Section 4 */
+.surf_banner {
+	height: 480px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(/static/img/surf3.png);
+}
+.surf_banner div {
+	height: 100%;
+}
+.surf_banner p {
+	font-size: 18px;
+}
+/* CONTATO */
+.contact p{
+	font-size: 14px;
+	margin-bottom: 5px;
+}
+.contact strong{
+	font-size: 18px;
+	margin-bottom: 5px;
+}
+/* FOOTER */
+footer {
+	background-color: #269BFF;
+}
+footer p {
+	color: #fff;
 }
 @media (min-width: 576px) { 
 	
 }
-
 @media (min-width: 768px) { 
 	h1 {
 		font-size: 72px;
 	}
-	
 }
 @media (min-width: 992px) { 
 	.content {
@@ -78,8 +109,6 @@ h1 {
 	}
 }
 @media (min-width: 1200px) { 
-
 }
 @media (min-width: 1400px) { 
-
 }
