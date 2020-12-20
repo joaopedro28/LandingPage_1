@@ -57,6 +57,9 @@ h1 {
 .como_chegar h4 p{
 	font-size: 14px;
 }
+.como_chegar span{
+	color: #99AABB;
+}
 .destaque_text {
 	color: #269BFF;
 }
@@ -65,6 +68,26 @@ h1 {
 	font-size: 18px;
 }
 /* Section 3 */
+.ondas{
+	margin-bottom: -20px
+}
+.planos {
+	background-color: #EFF4F9;
+}
+.planos p{
+	margin-bottom: 0;
+}
+.planos .title {
+	font-size: 24px;
+	color: #445566;
+}
+.planos .itens p {
+	font-size: 14px;
+	color: #445566;
+}
+.planos hr {
+	color: #EFF4F9;
+}
 /* Section 4 */
 .surf_banner {
 	height: 480px;
